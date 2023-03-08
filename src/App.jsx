@@ -4,6 +4,7 @@ import DifficultyLevelModal from './components/DifficultyLevelModal';
 import WinModal from './components/WinModal';
 
 const commit = 2;
+const commit2 = 2;
 
 function App() {
   const cellVariations = [
