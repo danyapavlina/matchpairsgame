@@ -5,6 +5,7 @@ import WinModal from './components/WinModal';
 
 const commit = 2;
 const commit2 = 2;
+const commit3 = 12312312;
 
 function App() {
   const cellVariations = [
