@@ -5,7 +5,7 @@ const Cell = props => {
     <div
       id={props.id}
       onClick={() => props.onTurn(props.id)}
-      className={`relative transition-[200ms] [transform-style:preserve-3d] ${
+      className={`relative transition-transform [transform-style:preserve-3d] ${
         props.isTurned ? '' : '[transform:rotateY(180deg)]'
       }`}
     >

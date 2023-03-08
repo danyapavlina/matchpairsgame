@@ -3,10 +3,6 @@ import Cell from './components/Cell';
 import DifficultyLevelModal from './components/DifficultyLevelModal';
 import WinModal from './components/WinModal';
 
-const commit = 2;
-const commit2 = 2;
-const commit3 = 12312312;
-
 function App() {
   const cellVariations = [
     {
@@ -139,7 +135,7 @@ function App() {
           cells[firstPick].src === cells[secondPick].src ? true : false
         );
         fieldRef.current.style.pointerEvents = 'all';
-      }, 200);
+      }, 600);
     }
   }, [firstPick, secondPick]);
 
