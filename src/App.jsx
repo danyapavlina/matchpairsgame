@@ -3,6 +3,8 @@ import Cell from './components/Cell';
 import DifficultyLevelModal from './components/DifficultyLevelModal';
 import WinModal from './components/WinModal';
 
+const commit = 2;
+
 function App() {
   const cellVariations = [
     {
