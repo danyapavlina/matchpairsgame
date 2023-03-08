@@ -172,7 +172,7 @@ function App() {
           />
         </div>
         <div className="mb-10 flex items-center justify-between rounded-lg  bg-orange-300 py-2 px-4 text-2xl text-orange-500">
-          <h1 className="font-bold">Turns: {turnsCounter}</h1>
+          <h1>Turns: {turnsCounter}</h1>
           <button onClick={restartHandler}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
